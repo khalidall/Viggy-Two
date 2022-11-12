@@ -1,9 +1,12 @@
 import React from "react"
 import "./App.css"
+import Template from "./components/Template"
 
 function App(){
   return (
-    <div className="App">Somthing</div>
+    <div className="App">
+      <Template />
+    </div>
   );
 };
 
