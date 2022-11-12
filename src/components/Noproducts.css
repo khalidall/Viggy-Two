@@ -1,0 +1,18 @@
+.noproducts-element{
+    width: 100%;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.noproducts-element img {
+    opacity: .5;
+}
+
+.noproducts-element h2 {
+    color: #666;
+}
+
+.noproducts-element P {
+    color: #999;
+    margin-top: 20px;
+}

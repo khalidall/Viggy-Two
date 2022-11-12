@@ -1,0 +1,90 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+header img{
+    width: 120px;
+}
+
+.search-form {
+    height: 36px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #077915;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+
+.search-form input {
+    width: 300px;
+    height: 100%;
+    font-size: 1rem;
+    padding: 0 7px;
+    border: none;
+    outline: none;
+}
+
+.search-form i {
+    width: calc(100%-300px);
+    font-size: 1.5rem;
+    background-color: #077915;
+    line-height: 36px;
+    color: #fff;
+    padding: 0 40px;
+    border-left: 1px solid #077915;
+    cursor: pointer;
+}
+
+
+.basket-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.total-container {
+    margin-right: 20px;
+    color:#077915;
+}
+.total-container table{
+    margin: 0;
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-container table td {
+    padding: 0 5px;
+    text-align: end;
+}
+
+.basket-button {
+    background-image: url("https://res.cloudinary.com/sivadass/image/upload/v1493548928/icons/bag.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 33px;
+    height: 36px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: -30px;
+}
+
+.basket-button:focus {
+    border: none;
+    outline: none;
+}
