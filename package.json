@@ -10,10 +10,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start": "src serve src/index.js",
+    "start:lambda": "src serve src/index.js",
     "build": "run-p build:**",
     "build:app": "react-scripts build",
-    "build": "src build src/index.js",
+    "build:lambda": "src build src/index.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
